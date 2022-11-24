@@ -1,0 +1,48 @@
+div .boxContact{
+    margin: auto;
+    padding: 25vh 16vw;
+    background-color: var(--mainColor);
+}
+
+a .circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    /* background-color: blue; */
+    border-radius: 50%;
+    border: 1.5px solid black;
+    text-align: center;
+    align-content: center;
+}
+
+a .circle:hover {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(141, 234, 181);
+    border-radius: 50%;
+    border: 1.5px solid black;
+    transition: .7s ease;
+}
+
+a .circle img{
+    transform: translateY(.5rem);
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details a{
+    color: var(--textColor);
+}
+
+.details a:hover{
+    color: rgb(141, 234, 181);
+    transition: .4s ease;
+}
+
+.contactgang{
+    display: flex;
+    gap: 1rem;
+}

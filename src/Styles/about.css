@@ -1,0 +1,96 @@
+div .boxAbout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 35vh 16vw;
+    background-color: var(--mainColor);
+}
+
+
+.s1photo a img{
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    filter: grayscale(75%);
+    overflow: hidden;
+    transition: .4s all;
+}
+
+.s1photo a img:hover{
+    filter: none;
+}
+
+.s2details p{
+    margin: 0 8vw 0 8vw;
+    font-size: 1.3vw;
+    line-height: 225%;
+}
+
+.s3etc{
+    /* width: 40vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 4vh;
+    text-align: end;
+    line-height: 200%;
+}
+
+.topicA a{
+    font-size: 2.1vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+/* .topicA a:hover{
+    color: var(--mainColor);
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;
+    transition: 0.7s ease;
+} */
+
+.detailsA{
+    font-size: 1.2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.detailsA p a{
+    color: var(--textColor);
+}
+
+.detailsA p a:hover{
+    color: rgb(141, 234, 181);
+    transition: .3s ease;
+}
+
+@media only screen and (max-width: 1024px) {
+    div .boxAbout{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 35vh 8vw;
+    }
+
+    .s2details p{
+        margin: 3vh 16vw;
+    }
+    
+    .s3etc{
+        margin: 0;
+        padding: auto;
+        width: 70vw;
+        display: flex;
+        gap: 0;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        text-align: end;
+        line-height: 150%;
+    }
+}

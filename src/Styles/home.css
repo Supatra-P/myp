@@ -1,0 +1,56 @@
+div .topic{
+    margin: auto;
+    padding: 26vh 16vw;
+    background-color: var(--mainColor);
+}
+
+div .logoname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1vh;
+}
+
+/* div .logoname img{
+    padding-top: 1vh;
+    width: 4vw;
+} */
+
+div .logoname h1{
+    /* padding-left: 3vw; */
+    font-size: 5.5vw;
+    font-weight: 900;
+}
+
+div .logoname h1 a{
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+div .topic h3{
+    padding-bottom: .7vh;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+div .topic p{
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+div .down {
+    padding: 24vh 0 6vh 0;
+    display: flex;
+    justify-content: center;
+}
+.down-btn{
+    background-color: transparent;
+    border: none;
+}
+.down-btn a{
+    color: var(--textColor);
+}
+.down-btn a:hover{
+    color: var(--mainColorLight);
+    transition: .7s ease;
+}

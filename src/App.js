@@ -1,11 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./Component/Navbar";
+import Home from "./Component/Home";
+import About from "./Component/About";
+import HelloWorld from "./Component/Skill";
+import Contact from "./Component/Contact";
+import Footer from "./Component/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World myp</h1>
-    </div>
+    <React.Fragment>
+            <Navbar/>
+            <Home/>
+            <About/>
+            <HelloWorld/>
+            <Contact/>
+            <Footer/>
+    </React.Fragment>
   );
 }
 
