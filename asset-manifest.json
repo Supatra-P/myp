@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/myp/static/css/main.54a4ffdf.css",
-    "main.js": "/myp/static/js/main.5e603962.js",
+    "main.css": "/myp/static/css/main.12171d6e.css",
+    "main.js": "/myp/static/js/main.a913f53d.js",
     "static/js/787.feba2db3.chunk.js": "/myp/static/js/787.feba2db3.chunk.js",
     "static/media/IMG_4317.jpg": "/myp/static/media/IMG_4317.62eda26cd445a06007f4.jpg",
     "static/media/Supatra.png": "/myp/static/media/Supatra.5a100c7d9eab86a2565a.png",
     "static/media/LogoS.svg": "/myp/static/media/LogoS.95991dd756c101037dcdea57ee92b099.svg",
     "static/media/LogoSP.svg": "/myp/static/media/LogoSP.ac87b969e24eb4f8469b5f63eb3c266d.svg",
     "static/media/c-github.svg": "/myp/static/media/c-github.7092a612015d35b45efd67acb8a479b7.svg",
-    "static/media/hambrwy.svg": "/myp/static/media/hambrwy.8c2a99741c11a97b621e254b84d85ab4.svg",
-    "static/media/hambrw.svg": "/myp/static/media/hambrw.d0ea8412d233b16c0918338d26fd65b7.svg",
-    "static/media/LogoSPO4.svg": "/myp/static/media/LogoSPO4.2aa87b61878d151be439d40775f49344.svg",
+    "static/media/hambrwy.svg": "/myp/static/media/hambrwy.204cfb4161b370adc29e045e8b4f2a5c.svg",
+    "static/media/hambrw.svg": "/myp/static/media/hambrw.b3c699a50385787109b4030d3234f83c.svg",
     "static/media/mhome.svg": "/myp/static/media/mhome.a2f4d20415ed5cffa170d76470513fc0.svg",
     "static/media/LogoSPO.svg": "/myp/static/media/LogoSPO.cf80d07e8fc58405f13f2bead204fa92.svg",
     "static/media/mcontact.svg": "/myp/static/media/mcontact.95bd82a098401962353614008bad8ebf.svg",
@@ -20,12 +19,12 @@
     "static/media/mskill.svg": "/myp/static/media/mskill.adbb5e1bf2cfcaeb9c76c7a8678835ce.svg",
     "index.html": "/myp/index.html",
     "static/media/c-loca.svg": "/myp/static/media/c-loca.0ee0b79d04e2fd5959824ea6566548a0.svg",
-    "main.54a4ffdf.css.map": "/myp/static/css/main.54a4ffdf.css.map",
-    "main.5e603962.js.map": "/myp/static/js/main.5e603962.js.map",
+    "main.12171d6e.css.map": "/myp/static/css/main.12171d6e.css.map",
+    "main.a913f53d.js.map": "/myp/static/js/main.a913f53d.js.map",
     "787.feba2db3.chunk.js.map": "/myp/static/js/787.feba2db3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54a4ffdf.css",
-    "static/js/main.5e603962.js"
+    "static/css/main.12171d6e.css",
+    "static/js/main.a913f53d.js"
   ]
 }
