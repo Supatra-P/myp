@@ -3,7 +3,7 @@ import logosp from "../Img/LogoSP.svg"
 import pht from "../Img/IMG_4317.jpg";
 import cgithub from "../Img/c-github.svg";
 import Supatra from "../Supatra.png";
-import { CiCircleChevDown } from 'react-icons/ci';
+import { AiOutlineGithub } from 'react-icons/ai';
 
 function About() {
 
@@ -22,20 +22,15 @@ function About() {
                     <div className="topicA">
                         <p>ABOUT</p>
                     </div>
-                    <a href="https://github.com/Supatra-P" target="_blank"><div className="circle"><img src={cgithub} alt="github" width={20} /></div></a>
+                    <a href="https://github.com/Supatra-P" target="_blank" rel="noopener noreferrer"><div className="circle" id="circ">< AiOutlineGithub size={24} color="var(--mainColorLight)" /></div></a>
                     <div className="detailsA">
                         <p>
-                            Here’s my <a href={Supatra} target="_blank">CV</a><br></br>
+                            Here’s my <a href={Supatra} target="_blank"><b>CV</b></a><br></br>
                             ー Nov 2022
                         </p>
                     </div>
                 </div>
             </div>
-                {/* <div className="down">
-                    <button className="down-btn">
-                        <a href="#skill"><CiCircleChevDown size={44} /></a>
-                    </button>
-                </div> */}
         </section>
     );
 }

@@ -3,7 +3,8 @@ div .boxAbout{
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    padding: 35vh 16vw;
+    padding: 0 16vw;
+    height: 100vh;
     background-color: var(--mainColor);
 }
 
@@ -23,12 +24,13 @@ div .boxAbout{
 
 .s2details p{
     margin: 0 8vw 0 8vw;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     line-height: 225%;
+    color: var(--mainColorLight);
 }
 
 .s3etc{
-    /* width: 40vw; */
+    width: 40vw;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -36,13 +38,14 @@ div .boxAbout{
     gap: 4vh;
     text-align: end;
     line-height: 200%;
+    color: var(--mainColorLight);
 }
 
 .topicA p{
-    font-size: 2.1vw;
-    font-weight: bold;
+    font-size: 2.4vw;
+    font-weight: 900;
     text-decoration: none;
-    color: var(--textColor);
+    color: var(--mainColorLight);
 }
 
 /* .topicA a:hover{
@@ -64,11 +67,16 @@ div .boxAbout{
 }
 
 .detailsA p a:hover{
-    color: rgb(141, 234, 181);
+    color: var(--secondaryColor);
     transition: .3s ease;
 }
 
-@media only screen and (max-width: 1024px) {
+#circ:hover {
+    background-color: var(--mainColor);
+    border: 1.5px solid var(--secondaryColor);
+}
+
+/* @media only screen and (max-width: 1024px) {
     div .boxAbout{
         display: flex;
         align-items: center;
@@ -93,4 +101,4 @@ div .boxAbout{
         text-align: end;
         line-height: 150%;
     }
-}
+} */

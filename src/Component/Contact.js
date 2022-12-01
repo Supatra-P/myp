@@ -5,6 +5,10 @@ import cin from "../Img/c-in.svg";
 import cemail from "../Img/c-email.svg";
 import cgithub from "../Img/c-github.svg";
 import cloca from "../Img/c-loca.svg";
+import { FaLinkedinIn } from 'react-icons/fa'
+import { AiOutlineGithub } from 'react-icons/ai';
+import { HiOutlineMail } from 'react-icons/hi';
+import { HiOutlineLocationMarker } from 'react-icons/hi';
 
 function Contact() {
     return (
@@ -19,10 +23,10 @@ function Contact() {
                     <p>Email ー <a href="mailto:supatra.pinjinda@gmail.com">supatra.pinjinda@gmail.com</a></p>
 
                     <div className="contactgang">
-                        <a href="https://www.linkedin.com/in/supatra-p/" target="_blank"><div className="circle"><img src={cin} alt="linkedin" width={20} /></div></a>
-                        <a href="mailto:supatra.pinjinda@gmail.com"><div className="circle"><img src={cemail} alt="email" width={22} height={20} /></div></a>
-                        <a href="https://github.com/Supatra-P" target="_blank"><div className="circle"><img src={cgithub} alt="github" width={20} /></div></a>
-                        <a href="https://goo.gl/maps/9KZHoQ2RR84m38328" target="_blank"><div className="circle"><img src={cloca} alt="location" width={15} /></div></a>
+                        <a href="https://www.linkedin.com/in/supatra-p/" target="_blank" rel="noopener noreferrer"><div className="circle"><FaLinkedinIn size={20} color="var(--secondaryColor)"/></div></a>
+                        <a href="https://github.com/Supatra-P" target="_blank" rel="noopener noreferrer"><div className="circle"><AiOutlineGithub size={24} color="var(--secondaryColor)" /></div></a>
+                        <a href="mailto:supatra.pinjinda@gmail.com"><div className="circle"><HiOutlineMail size={24} color="var(--secondaryColor)" /></div></a>
+                        <a href="https://goo.gl/maps/9KZHoQ2RR84m38328" target="_blank" rel="noopener noreferrer"><div className="circle"><HiOutlineLocationMarker size={24} color="var(--secondaryColor)" /></div></a>
                     </div>
                 </div>
             </div>

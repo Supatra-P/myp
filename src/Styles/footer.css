@@ -3,6 +3,7 @@ footer{
     padding: 5vh 16vw;
     background-color: var(--mainColor);
     text-align: center;
+    color: --secondaryColor;
 }
 
 .boxFootNav{

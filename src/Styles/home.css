@@ -1,6 +1,6 @@
 div .topic{
     margin: auto;
-    padding: 26vh 16vw;
+    padding: 26vh 16vw 9vh 16vw;
     background-color: var(--mainColor);
 }
 
@@ -9,6 +9,7 @@ div .logoname{
     align-items: center;
     justify-content: center;
     padding-bottom: 1vh;
+    color: var(--secondaryColor);
 }
 
 /* div .logoname img{
@@ -22,24 +23,22 @@ div .logoname h1{
     font-weight: 900;
 }
 
-div .logoname h1 a{
-    text-decoration: none;
-    color: var(--textColor);
-}
-
 div .topic h3{
     padding-bottom: .7vh;
     font-size: 1.5vw;
     text-align: center;
+    color: var(--mainColorLight);
 }
 
 div .topic p{
     font-size: 1.2vw;
     text-align: center;
+    color: var(--textColor);
 }
 
 div .down {
-    padding: 24vh 0 6vh 0;
+    padding: 24vh 0 0 0;
+    /* height: 12vh; */
     display: flex;
     justify-content: center;
 }
@@ -51,6 +50,6 @@ div .down {
     color: var(--textColor);
 }
 .down-btn a:hover{
-    color: var(--mainColorLight);
+    color: var(--secondaryColor);
     transition: .7s ease;
 }

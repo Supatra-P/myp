@@ -1,6 +1,8 @@
 div .boxSkill{
     margin: auto;
-    padding: 25vh 24vw;
+    padding: 0 24vw;
+    height: 100vh;
+    background-color: var(--mainColor);
 }
 
 .loading{
@@ -12,35 +14,35 @@ div .boxSkill{
 .loading .box0{
     width: 1.5rem;
     height: 1.5rem;
-    background-color: black;
+    background-color: var(--mainColorLight)
 }
 
 .loading .box1{
     width: 1.5rem;
     height: 1.5rem;
-    background-color: white;
-    border: 1.5px solid black;
+    background-color: var(--mainColor);
+    border: 1.5px solid var(--mainColorLight)
 }
 
 .loading .box2{
     width: 1.5rem;
     height: 1.5rem;
-    background-color: white;
-    border: 1px solid black;
+    background-color: var(--mainColor);
+    border: 1px solid var(--mainColorLight)
 }
 
 .loading .box3{
     width: 1.5rem;
     height: 1.5rem;
-    background-color: white;
-    border: .5px solid black;
+    background-color: var(--mainColor);
+    border: .5px solid var(--mainColorLight);
 }
 
 .topicS{
     font-size: 1.65vw;
     font-weight: bold;
     text-decoration: none;
-    color: var(--textColor);
+    color: var(--mainColorLight);
     text-align: end;
 }
 
@@ -56,6 +58,7 @@ div .boxSkill{
     align-items: flex-start;
     justify-content: space-around;
     gap: 38vh;
+    color: var(--mainColorLight);
 }
 
 .boxLoading h2{

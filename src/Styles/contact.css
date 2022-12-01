@@ -7,9 +7,8 @@ div .boxContact{
 a .circle {
     width: 2.5rem;
     height: 2.5rem;
-    /* background-color: blue; */
     border-radius: 50%;
-    border: 1.5px solid black;
+    border: 1.5px solid var(--mainColorLight);
     text-align: center;
     align-content: center;
 }
@@ -17,20 +16,23 @@ a .circle {
 a .circle:hover {
     width: 2.5rem;
     height: 2.5rem;
-    background-color: rgb(141, 234, 181);
+    background-color: var(--mainColorLight);
     border-radius: 50%;
-    border: 1.5px solid black;
+    border: 1.5px solid var(--mainColorLight);
     transition: .7s ease;
 }
 
-a .circle img{
-    transform: translateY(.5rem);
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .details{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: var(--mainColorLight);
 }
 
 .details a{
@@ -38,7 +40,7 @@ a .circle img{
 }
 
 .details a:hover{
-    color: rgb(141, 234, 181);
+    color: var(--secondaryColor);
     transition: .4s ease;
 }
 

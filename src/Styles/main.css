@@ -1,57 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     scroll-behavior: smooth;
 }
 
+/* smoky black 0F0F0F */
+/* fff */
+/* aqua */
+/* paradise pink ee4266  */
+
 :root{
     --mainColor: #fff;
-    --mainColorLight: #485696;
+    --mainColorLight: #000;
     --secondaryColor: #ee4266;
     --textColor: #000;
 }
 
 header{
+    background-color: var(--mainColor);
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
     height: 80px;
-    margin-top: -.5rem;
+    /* margin-top: -.5rem; */
     padding: 0 2rem;
-    /* background-color: var(--mainColor); */
+    background-color: var(--mainColor);
     color: var(--textColor);
-    /* position: fixed; */
-    /* right: 0; */
 }
 
-.logo{
-    /* margin-top: 1vh; */
-    /* border: 2px solid #000; */
-}
-
-.logoS{
-    /* font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--mainColor);
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black; */
-}
-
-.logoS:hover{
-    /* color: var(--secondaryColor); */
-    /* -webkit-text-stroke-width: 1.5px; */
-    /* -webkit-text-stroke-color: var(--secondaryColor);
-    transition: 1s ease; */
+nav {
+    margin-top: .5rem;
+    margin-right: 1.4rem;
+    visibility: hidden;
 }
 
 nav a{
-    margin: 0 .5rem;
-    padding: 1rem 1.4rem 0.8rem 1rem;
+    /* margin: 0 .5rem; */
+    /* margin-top: .5rem; */
+    padding: .8rem 1rem .8rem 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
     color: var(--textColor);
     text-decoration: none;
     background-color: var(--mainColor);
@@ -63,72 +57,51 @@ nav a:hover{
     transition: 0.4s ease;
 }
 
-nav a .micon{
-    margin: 0px 0.8rem -1rem 0;
-    padding: 0 0 0.8rem 0;
-}
-
-.active{
+/* .active{
     margin: 0 .5rem;
     padding: 1rem 1.4rem 0.8rem 1rem;
     color: var(--secondaryColor);
-    border: 2px solid var(--mainColorLight); 
+    border: 2px solid var(--mainColorLight);
     transition: 0.4s ease;
-}
+} */
 
-header .nav-btn {
-    /* padding: 5px; */
-    margin-top: -1rem;
-    cursor: pointer;
-    background: transparent;
+.nav-btn{
+    margin-top: 1.5rem;
+    background-color: transparent;
     border: none;
     outline: none;
-    color: var(--textColor);
-    visibility: hidden;
-    opacity: 0;
-    font-size: 1.8rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
 }
 
-@media only screen and (max-width: 1024px){
-    header .nav-btn{
+@media screen {
+    .nav-btn{
+        position: fixed;
+    }
+    nav{
         visibility: visible;
-        opacity: 1;
-        margin-top: .5rem;
     }
 
     header nav{
         position: fixed;
-        margin-top: 7rem;
+        margin-top: 5rem;
         top: 0;
         right: 0;
-        width: 100%;
+        width: 0%;
         height: 100%;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         justify-content: flex-start;
         gap: 1.5rem;
-        background-color: var(--mainColor);
-        transition: .8s;
+        background-color: #fff;
+        transition: .7s;
         transform: translateX(100vw);
-        background-color: transparent;
+        /* background-color: transparent; */
     }
 
     header .responsive_nav{
         transform: none ;
-    }
-
-    nav .nav-close-btn{
-        position: absolute;
-        top: 0rem;
-        right: 2rem;
-        background-color: transparent;
-        /* transition: .1s; */
-        /* visibility: hidden; */
-        color: transparent;
-    }
-    
-    nav a{
-        font-size: 1.2rem;
     }
 }
