@@ -45,7 +45,7 @@ function Skill() {
                         <br></br>
                     </p>
                     <div className="topicA">
-                        <a href="#skill">SKILLs</a>
+                        <p>SKILLs</p>
                     </div>
                 </div>
             </div>

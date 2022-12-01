@@ -12,7 +12,7 @@ function Home() {
                 <div className="intro">
                     <div className="logoname">
                         {/* <img src={logo} alt="logoSP" /> */}
-                        <h1><a href="#home">SUPATRA&nbsp;&nbsp;PINJINDA</a></h1>
+                        <h1>SUPATRA&nbsp;&nbsp;PINJINDA</h1>
                     </div>
                     <h3>SOFTWARE ENGINEERING STUDENT</h3>
                     <p>AT THAMMASAT UNIVERSITY</p>

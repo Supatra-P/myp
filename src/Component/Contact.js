@@ -12,7 +12,7 @@ function Contact() {
 
             <div className="boxContact">
                 <div className="topicA">
-                    <a href="#contact">CONTACT</a>
+                    <p>CONTACT</p>
                 </div>
 
                 <div className="details">

@@ -20,7 +20,7 @@ function About() {
                 </div>
                 <div className="s3etc">
                     <div className="topicA">
-                        <a href="#about">ABOUT</a>
+                        <p>ABOUT</p>
                     </div>
                     <a href="https://github.com/Supatra-P" target="_blank"><div className="circle"><img src={cgithub} alt="github" width={20} /></div></a>
                     <div className="detailsA">

@@ -35,7 +35,7 @@ function Navbar() {
             {/* <a href="/#"><img className="logo" src={logospo} alt="Home" width={44}/></a> */}
             {/* <a href="/#" className="logoS">SUPATRA</a> */}
             <nav ref={navRef}>
-                <a className="links" onScroll={activeMenu} href="#home"><img className="micon" src={mhome} alt="home" width={24}/>Home</a>
+                {/* <a className="links" onScroll={activeMenu} href="#home"><img className="micon" src={mhome} alt="home" width={24}/>Home</a> */}
                 <a className="links" onScroll={activeMenu} href="#about"><img className="micon" src={mabout} alt="about" width={24}/>About</a>
                 <a className="links" onScroll={activeMenu} href="#skill"><img className="micon" src={mskill} alt="skill" width={24} height={32}/>Skill</a>
                 <a className="links" onScroll={activeMenu} href="#contact"><img className="micon" src={mcontact} alt="contact" width={24}/>Contact</a>
