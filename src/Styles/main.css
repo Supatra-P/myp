@@ -13,11 +13,18 @@
 /* aqua */
 /* paradise pink ee4266  */
 
-:root{
+/* :root{
     --mainColor: #fff;
     --mainColorLight: #000;
     --secondaryColor: #ee4266;
     --textColor: #000;
+} */
+
+:root{
+    --mainColor: #0f0f0f;
+    --mainColorLight: #fff;
+    --secondaryColor: aqua;
+    --textColor: #ee4266;
 }
 
 header{
