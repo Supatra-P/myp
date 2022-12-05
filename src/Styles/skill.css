@@ -8,34 +8,34 @@ div .boxSkill{
 .loading{
     display: flex;
     align-items: center;
-    gap: .1rem;
+    gap: .15vw;
 }
 
 .loading .box0{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.661vw;
+    height: 1.661vw;
     background-color: var(--mainColorLight)
 }
 
 .loading .box1{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.661vw;
+    height: 1.661vw;
     background-color: var(--mainColor);
-    border: 1.5px solid var(--mainColorLight)
+    border: .11vw solid var(--mainColorLight)
 }
 
 .loading .box2{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.661vw;
+    height: 1.661vw;
     background-color: var(--mainColor);
-    border: 1px solid var(--mainColorLight)
+    border: .09vw solid var(--mainColorLight)
 }
 
 .loading .box3{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.661vw;
+    height: 1.661vw;
     background-color: var(--mainColor);
-    border: .5px solid var(--mainColorLight);
+    border: .06vw solid var(--mainColorLight);
 }
 
 .topicS{
@@ -57,10 +57,54 @@ div .boxSkill{
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    gap: 38vh;
+    gap: 24vw;
     color: var(--mainColorLight);
 }
 
+.boxHello h5{
+    font-size: .9vw;
+}
+
 .boxLoading h2{
-    margin-bottom: 2.2vh;
+    margin-bottom: 1.5vw;
+    font-size: 2vw;
+}
+
+@media only screen and (max-width: 425px) {
+    div .boxSkill{
+        /* margin: auto; */
+        /* padding: 0 16vw; */
+        /* height: 75vh; */
+        /* background-color: var(--mainColor); */
+    }
+
+    
+    .boxSkill{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        /* flex-direction: column; */
+    }
+    
+    .boxHello{
+        gap: 3vw;
+    }
+
+    .topicS{
+        margin: 28vw 0 0 0;
+        font-size: 6vw;
+        font-weight: bold;
+        text-decoration: none;
+        color: var(--mainColorLight);
+        text-align: end;
+    }
+    
+    .boxHello h5{
+        font-size: 2.6vw;
+    }
+    
+    .boxLoading h2{
+        margin-bottom: 1.5vw;
+        font-size: 5vw;
+    }
 }

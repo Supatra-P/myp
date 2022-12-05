@@ -23,17 +23,24 @@ div .logoname h1{
     font-weight: 900;
 }
 
+div .topic{
+    text-align: center;
+}
+
 div .topic h3{
     padding-bottom: .7vh;
     font-size: 1.5vw;
-    text-align: center;
     color: var(--mainColorLight);
 }
 
 div .topic p{
     font-size: 1.2vw;
-    text-align: center;
     color: var(--textColor);
+}
+
+div .intro img{
+    margin-top: 1vw;
+    width: 3.05vw;
 }
 
 div .down {
@@ -52,4 +59,41 @@ div .down {
 .down-btn a:hover{
     color: var(--secondaryColor);
     transition: .7s ease;
+}
+
+@media only screen and (max-width: 425px) {
+    div .topic{
+        margin: auto;
+        padding: 26vh 8vw 0vh 8vw;
+        background-color: var(--mainColor);
+    }
+    div .down{
+        visibility: hidden;
+    }
+
+    div .logoname h1{
+        font-size: 7vw;
+        font-weight: 900;
+        line-height: 0;
+    }
+
+    div .topic{
+        text-align: end;
+    }
+    
+    div .topic h3{
+        padding: 1.2vh 8vw 0 8vw;
+        font-size: 7vw;
+        text-align: end;
+    }
+    
+    div .topic p{
+        padding: 0 8vw 1.2vh 8vw;
+        font-size: 6.5vw;
+        text-align: end;
+    }
+    
+    div .topic img{
+        width: 5vw;
+    }
 }

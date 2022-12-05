@@ -16,11 +16,11 @@ function Home() {
                     </div>
                     <h3>SOFTWARE ENGINEERING STUDENT</h3>
                     <p>AT THAMMASAT UNIVERSITY</p>
-                    <img src={logo} alt="logoSP" width={44} />
+                    <img src={logo} alt="logoSP" />
                 </div>
                 <div className="down">
                     <button className="down-btn">
-                        <a href="#about"><CiCircleChevDown size={44} /></a>
+                        <a href="#about"><CiCircleChevDown size={44}/></a>
                     </button>
                 </div>
             </div>

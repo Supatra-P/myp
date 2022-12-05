@@ -46,5 +46,40 @@ a .circle:hover {
 
 .contactgang{
     display: flex;
-    gap: 1rem;
+    gap: 1.1vw;
+}
+
+@media only screen and (max-width: 425px){
+
+    div .boxContact{
+        height: 75vh;
+    }
+
+    .details{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        color: var(--mainColorLight);
+    }
+
+    .details p{
+        visibility: hidden;
+    }
+    
+    .contactgang{
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+    }
+
+    .boxContact .topicA p{
+        text-align: center;
+        padding-bottom: 16vw;
+    }
+
+    .topicA p{
+        font-size: 7vw;
+    }
+
 }
