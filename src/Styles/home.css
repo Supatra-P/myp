@@ -23,19 +23,17 @@ div .logoname h1{
     font-weight: 900;
 }
 
-div .topic{
-    text-align: center;
-}
-
 div .topic h3{
     padding-bottom: .7vh;
     font-size: 1.5vw;
     color: var(--mainColorLight);
+    text-align: center;
 }
 
 div .topic p{
     font-size: 1.2vw;
     color: var(--textColor);
+    text-align: center;
 }
 
 div .intro img{

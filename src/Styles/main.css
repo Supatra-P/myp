@@ -13,20 +13,21 @@
 /* aqua */
 /* paradise pink ee4266  */
 /* majorelle blue 6B50DD */
+/* violet blue 454E9E */
 
-:root{
+/* :root{
     --mainColor: #fff;
     --mainColorLight: #0F0F0F;
     --secondaryColor: #6B50DD;
     --textColor: #ee4266;
-}
+} */
 
-/* :root{
+:root{
     --mainColor: #0f0f0f;
     --mainColorLight: #fff;
-    --secondaryColor: aqua;
+    --secondaryColor: #6B50DD;
     --textColor: #ee4266;
-} */
+}
 
 header{
     background-color: var(--mainColor);
