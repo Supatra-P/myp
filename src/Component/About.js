@@ -26,7 +26,7 @@ function About() {
                     <div className="detailsA">
                         <p>
                             Here’s my <a href={Supatra} target="_blank"><b>CV</b></a><br></br>
-                            ー Nov 2022
+                            ー Dec 2022
                         </p>
                     </div>
                 </div>
