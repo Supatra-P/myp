@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myp/static/css/main.474fc7bb.css",
-    "main.js": "/myp/static/js/main.1d0e225d.js",
+    "main.js": "/myp/static/js/main.10323d89.js",
     "static/js/787.feba2db3.chunk.js": "/myp/static/js/787.feba2db3.chunk.js",
     "static/media/Supatra.png": "/myp/static/media/Supatra.0fed74443b1e43274849.png",
     "static/media/IMG_4317.jpg": "/myp/static/media/IMG_4317.62eda26cd445a06007f4.jpg",
@@ -20,11 +20,11 @@
     "index.html": "/myp/index.html",
     "static/media/c-loca.svg": "/myp/static/media/c-loca.0ee0b79d04e2fd5959824ea6566548a0.svg",
     "main.474fc7bb.css.map": "/myp/static/css/main.474fc7bb.css.map",
-    "main.1d0e225d.js.map": "/myp/static/js/main.1d0e225d.js.map",
+    "main.10323d89.js.map": "/myp/static/js/main.10323d89.js.map",
     "787.feba2db3.chunk.js.map": "/myp/static/js/787.feba2db3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.474fc7bb.css",
-    "static/js/main.1d0e225d.js"
+    "static/js/main.10323d89.js"
   ]
 }
