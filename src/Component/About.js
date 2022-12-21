@@ -15,7 +15,7 @@ function About() {
                 </div>
                 <div className="s2details">
                     <p>
-                        I am constantly interested in improving my technical skills in order to create beautiful websites and mobile applications. I enjoy taking on challenges and learning new things, which makes me an enthusiastic.
+                        I am constantly interested in improving my technical skills in order to create beautiful websites and mobile applications I enjoy taking on challenges and learning new things, which makes me an enthusiastic.
                     </p>
                 </div>
                 <div className="s3etc">
