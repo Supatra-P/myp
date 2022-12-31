@@ -63,7 +63,7 @@ function Footer() {
                 <a href="/"><img className="logo" src={logo} alt="Home" width={44} /></a>
                 <FootNav>
                     <LinkNav>
-                        <Link to="/">Home</Link>
+                        <Link to="/myp/">Home</Link>
                     </LinkNav>
                     <LinkNav>
                         <Link to="/about">About</Link>

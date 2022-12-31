@@ -7,6 +7,15 @@
     border-radius: 18px;
     cursor: pointer;
     transition: all .5s ease;
+    font-size: 3vw;
+}
+
+@media only screen and (max-height: 760px) and (min-width: 1000px) {
+    .boxR {
+        width: calc(100vh/2.4);
+        height: calc(100vh/2.4);
+        font-size: calc(100vh/20);
+    }
 }
 
 .boxA {
