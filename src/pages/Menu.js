@@ -50,12 +50,12 @@ export function Menu() {
             <Container>
                 <NavH>
                     <div>
-                        <Link to="/about"><div className="boxR boxA">About<br></br><TbCoffee /></div></Link>
-                        <Link to="/portfolio"><div className="boxR boxB">Portfolio<br></br><TbMoodBoy /></div></Link>
+                        <Link to="/myp/about"><div className="boxR boxA">About<br></br><TbCoffee /></div></Link>
+                        <Link to="/myp/portfolio"><div className="boxR boxB">Portfolio<br></br><TbMoodBoy /></div></Link>
                     </div>
                     <div>
-                        <Link to="/caps"><div className="boxR boxC">Capabilities<br></br><TbBolt /></div></Link>
-                        <Link to="/contact"><div className="boxR boxD">Contact<br></br>< TbMotorbike /></div></Link>
+                        <Link to="/myp/caps"><div className="boxR boxC">Capabilities<br></br><TbBolt /></div></Link>
+                        <Link to="/myp/contact"><div className="boxR boxD">Contact<br></br>< TbMotorbike /></div></Link>
                     </div>
                 </NavH>
             </Container>

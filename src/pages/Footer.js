@@ -60,22 +60,22 @@ function Footer() {
     return (
         <FooterContainer>
             <BoxFootNav>
-                <a href="/"><img className="logo" src={logo} alt="Home" width={44} /></a>
+                <a href="/myp/"><img className="logo" src={logo} alt="Home" width={44} /></a>
                 <FootNav>
                     <LinkNav>
                         <Link to="/myp/">Home</Link>
                     </LinkNav>
                     <LinkNav>
-                        <Link to="/about">About</Link>
+                        <Link to="/myp/about">About</Link>
                     </LinkNav>
                     <LinkNav>
-                        <Link to="/caps">Capabilities</Link>
+                        <Link to="/myp/caps">Capabilities</Link>
                     </LinkNav>
                     <LinkNav>
-                        <Link to="/portfolio">Portfolio</Link>
+                        <Link to="/myp/portfolio">Portfolio</Link>
                     </LinkNav>
                     <LinkNav>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/myp/contact">Contact</Link>
                     </LinkNav>
                 </FootNav>
             </BoxFootNav>

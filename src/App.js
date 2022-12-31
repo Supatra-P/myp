@@ -48,10 +48,10 @@ function App() {
               <ChangeThemeIcon />
               <Routes>
                 <Route path="/myp/" element={<Menu />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/caps" element={<Capabilities />} />
-                <Route path="/portfolio" element={<Portfolio />} />
-                <Route path="/contact" element={<Contact />} />
+                <Route path="/myp/about" element={<About />} />
+                <Route path="/myp/caps" element={<Capabilities />} />
+                <Route path="/myp/portfolio" element={<Portfolio />} />
+                <Route path="/myp/contact" element={<Contact />} />
               </Routes>
           </Router>
         </AppContext.Provider>

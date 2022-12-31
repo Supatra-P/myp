@@ -20,10 +20,10 @@ export function NavNextbar() {
     return (
         <IconContainer>
             <NavNext icon={<TbBorderAll size={24} />} url={"/myp/"} />
-            <NavNext icon={<TbCoffee size={24} />} url={"/about"} />
-            <NavNext icon={<TbBolt size={24} />} url={"/caps"} />
-            <NavNext icon={<TbMoodBoy size={24} />} url={"/portfolio"} />
-            <NavNext icon={<TbMotorbike size={24} />} url={"/contact"} />
+            <NavNext icon={<TbCoffee size={24} />} url={"/myp/about"} />
+            <NavNext icon={<TbBolt size={24} />} url={"/myp/caps"} />
+            <NavNext icon={<TbMoodBoy size={24} />} url={"/myp/portfolio"} />
+            <NavNext icon={<TbMotorbike size={24} />} url={"/myp/contact"} />
         </IconContainer>
     );
 };
