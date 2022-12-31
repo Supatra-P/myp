@@ -67,7 +67,7 @@ export function Contact() {
         <div>
             <ContactContainer>
                 <NavNextbar />
-                <ContactTitle>CONTACT</ContactTitle>
+                <ContactTitle>Contact</ContactTitle>
                 <ContactsDetails>
                     <LinkNav>
                         Email ー <a href="mailto:supatra.pinjinda@gmail.com">supatra.pinjinda@gmail.com</a>
