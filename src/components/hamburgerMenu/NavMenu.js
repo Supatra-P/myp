@@ -98,7 +98,7 @@ export function NavMenu({ isOpen }) {
                         },
                     }}
                 >
-                    <Link to="/">Home</Link>
+                    <Link to="/myp/">Home</Link>
                 </NavLink>
                 <NavLink
                     initial={false}

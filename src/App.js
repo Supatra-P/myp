@@ -45,7 +45,7 @@ function App() {
               <Navbar />
               <ChangeThemeIcon />
               <Routes>
-                <Route path="/" element={<Menu />} />
+                <Route path="/myp/" element={<Menu />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/caps" element={<Capabilities />} />
                 <Route path="/portfolio" element={<Portfolio />} />

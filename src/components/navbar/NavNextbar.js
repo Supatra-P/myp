@@ -19,7 +19,7 @@ export function NavNextbar() {
 
     return (
         <IconContainer>
-            <NavNext icon={<TbBorderAll size={24} />} url={"/"} />
+            <NavNext icon={<TbBorderAll size={24} />} url={"/myp/"} />
             <NavNext icon={<TbCoffee size={24} />} url={"/about"} />
             <NavNext icon={<TbBolt size={24} />} url={"/caps"} />
             <NavNext icon={<TbMoodBoy size={24} />} url={"/portfolio"} />
