@@ -1,15 +1,17 @@
 div .topic{
-    margin: auto;
-    padding: 26vh 16vw 9vh 16vw;
+    margin: 0;
+    padding: auto;
     background-color: var(--mainColor);
+    height: 100vh;
 }
 
 div .logoname{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 1vh;
-    color: var(--secondaryColor);
+    padding-bottom: 4vh;
+    color: var(--mainColorLight);
+    height: fit-content;
 }
 
 /* div .logoname img{
@@ -19,7 +21,7 @@ div .logoname{
 
 div .logoname h1{
     /* padding-left: 3vw; */
-    font-size: 5.5vw;
+    font-size: 8.5vw;
     font-weight: 900;
 }
 
@@ -59,12 +61,69 @@ div .down {
     transition: .7s ease;
 }
 
+
+
+
+
+.navHme {
+    display: flex;
+    
+}
+#sqAbt {
+    margin: 0;
+    padding: auto;
+    width: calc(100vw/3);
+    height: calc(100vw/3);
+    background-color: #D999B9;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+    text-decoration: none;
+}
+
+#sqSkll {
+    margin: 0;
+    padding: auto;
+    width: calc(100vw/3);
+    height: calc(100vw/3);
+    background-color: #B8B3E9;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+}
+#sqCntct {
+    margin: 0;
+    padding: auto;
+    width: calc(100vw/3);
+    height: calc(100vw/3);
+    background-color: #90E0F3;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+}
+
+#sqAbt:hover {
+    background-color: #e7a9c8;
+    transition: ease-in-out .3s;
+}
+#sqSkll:hover {
+    background-color: #beb9ec;
+    transition: ease-in-out .3s;
+}
+#sqCntct:hover {
+    background-color: #9fe0f1;
+    transition: ease-in-out .3s;
+}
+
+
+
+
+
 @media only screen and (max-width: 425px) {
     div .topic{
         margin: auto;
-        padding: 26vh 8vw 0vh 8vw;
+        padding: 26vh 0 0 0;
+        height: 100vh;
         background-color: var(--mainColor);
     }
+
     div .down{
         visibility: hidden;
     }

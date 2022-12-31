@@ -15,7 +15,7 @@ function About() {
                 </div>
                 <div className="s2details">
                     <p>
-                    I am constantly interested in improving my technical skills so that I can create beautiful websites and mobile applications, and I want to be a full-stack developer in the future. I enjoy taking on challenges and learning new things, which makes me enthusiastic about my work.
+                    I am constantly interest in improving my technical skills so that I can create beautiful websites and mobile applications, and I want to be a full-stack developer in the future. I enjoy taking on challenges and learning new things, which makes me enthusiastic about my work.
                     </p>
                 </div>
                 <div className="s3etc">
