@@ -1,38 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Inter:wght@400;600;800;900&family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --tWhite: #FBFEF9;
+  --tBlack: #0F0A0A;
+  --tdBlue: #29325F;
+  --tPink: #FFA9E7;
+
+  --dRed: #F8B4C3;
+  --dYellow: #F7FF85;
+  --dBlue: #8BF9F3;
+  --dPurple: #A19EE6;
+
+  --pRed: #ffd8e1;
+  --pYellow: #fbffbd;
+  --pBlue: #d1fffd;
+  --pPurple: #cac8ff;
+
+  --iYellow: #fff04e;
+}
+  
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Mono', monospace;
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

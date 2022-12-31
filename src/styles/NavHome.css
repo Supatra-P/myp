@@ -1,0 +1,43 @@
+.boxR {
+    margin: 0;
+    padding-top: 4vw;
+    width: calc(100vw/3.9);
+    height: calc(100vw/3.9);
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.boxA {
+    color: var(--dRed);
+    background-color: var(--dRed);
+}
+.boxA:hover {
+    background-color: var(--pRed);
+}
+
+.boxB {
+    color: var(--dYellow);
+    background-color: var(--dYellow);
+}
+.boxB:hover {
+    color: var(--iYellow);
+    background-color: var(--pYellow);
+}
+
+.boxC {
+    color: var(--dBlue);
+    background-color: var(--dBlue);
+}
+.boxC:hover {
+    background-color: var(--pBlue);
+}
+
+.boxD {
+    color: var(--dPurple);
+    background-color: var(--dPurple);
+}
+.boxD:hover {
+    background-color: var(--pPurple);
+}
