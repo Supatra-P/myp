@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import Footer, { LinkNav } from "./Footer";
 import { ContactLink } from '../components/ContactAsset/ContactLink';
-import { NavNextbar } from "../components/navbar/NavNextbar";
 
 const ContactContainer = styled.div`
     padding: 36vh 16vw 0 16vw;
@@ -66,7 +65,6 @@ export function Contact() {
     return (
         <div>
             <ContactContainer>
-                <NavNextbar />
                 <ContactTitle>Contact</ContactTitle>
                 <ContactsDetails>
                     <LinkNav>

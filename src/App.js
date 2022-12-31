@@ -10,6 +10,7 @@ import { Portfolio } from "./pages/Portfolio";
 import { Capabilities } from "./pages/Capabilities";
 import { Contact } from "./pages/Contact";
 import { Menu } from "./pages/Menu";
+import { NavNextbar } from './components/navbar/NavNextbar';
 
 const LightTheme = {
   pageBackground: "var(--tWhite)",
@@ -43,6 +44,7 @@ function App() {
         <AppContext.Provider value={{ theme, setTheme }}>
           <Router>
               <Navbar />
+              <NavNextbar />
               <ChangeThemeIcon />
               <Routes>
                 <Route path="/myp/" element={<Menu />} />

@@ -2,7 +2,6 @@ import React from "react";
 import { Page, SubTitle, Title } from "./Menu";
 import styled from "styled-components";
 import { CapsLogo1, CapsLogo2, CapsLogo3 } from "../components/CapsAsset/CapsLogo";
-import { NavNextbar } from "../components/navbar/NavNextbar";
 
 export const CContainer = styled.div`
     color: ${props => props.theme.titleColor};
@@ -52,7 +51,6 @@ const ProgBox = styled.div`
 export const Capabilities = () => {
     return (
         <Page>
-            <NavNextbar />
             <CContainer>
                 <Title>Capabilities</Title>
                 <SubTitle>Programming Language - Framework - Library - Database</SubTitle>

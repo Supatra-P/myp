@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { NavNextbar } from "../components/navbar/NavNextbar";
 import { Gallery } from "../components/PortGallery/Gallery";
 import { CContainer } from "./Capabilities";
 import { SubTitle, Title } from "./Menu";
@@ -20,7 +19,6 @@ export function Portfolio() {
     return (
         <div>
             <ProjPage>
-                <NavNextbar />
                 <CContainer>
                     <div style={{ width: "65vw" }}>
                         <Title>Portfolio</Title>

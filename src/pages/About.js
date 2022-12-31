@@ -3,12 +3,10 @@ import pht from "../Img/gimchi.jpg";
 import Supatra from "../Supatra.png";
 import { ContactLink } from "../components/ContactAsset/ContactLink";
 import { AboutBox, AboutContact, AboutContainer, AboutDetails, AboutPage, AboutPht, AboutResume, AboutResumeContainer, AboutTitleBox } from "../styles/AboutStyles";
-import { NavNextbar } from "../components/navbar/NavNextbar";
 
 export function About() {
     return (
         <AboutPage>
-            <NavNextbar />
             <div>
                 <AboutContainer>
                     <AboutBox>

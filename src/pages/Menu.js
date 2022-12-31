@@ -5,7 +5,6 @@ import { TbMoodBoy } from 'react-icons/tb';
 import { TbBolt } from 'react-icons/tb';
 import { TbMotorbike } from 'react-icons/tb';
 import { Link } from "react-router-dom";
-import { NavNextbar } from "../components/navbar/NavNextbar";
 
 export const Page = styled.div`
     display: flex;
@@ -59,7 +58,6 @@ export function Menu() {
                         <Link to="/contact"><div className="boxR boxD">Contact<br></br>< TbMotorbike /></div></Link>
                     </div>
                 </NavH>
-                <NavNextbar />
             </Container>
         </Page>
     );
