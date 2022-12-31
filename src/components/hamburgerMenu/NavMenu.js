@@ -98,7 +98,7 @@ export function NavMenu({ isOpen }) {
                         },
                     }}
                 >
-                    <Link to="/myp/">Home</Link>
+                    <Link to="/">Home</Link>
                 </NavLink>
                 <NavLink
                     initial={false}
@@ -113,7 +113,7 @@ export function NavMenu({ isOpen }) {
                             transition: { delay: 0.1, duration: 0.05 },
                         },
                     }}>
-                    <Link to="/myp/about">About</Link>
+                    <Link to="/about">About</Link>
                 </NavLink>
                 <NavLink
                     initial={false}
@@ -128,7 +128,7 @@ export function NavMenu({ isOpen }) {
                             transition: { delay: 0.15, duration: 0.05 },
                         },
                     }}>
-                    <Link to="/myp/caps">Capabilities</Link>
+                    <Link to="/caps">Capabilities</Link>
                 </NavLink>
                 <NavLink
                     initial={false}
@@ -143,7 +143,7 @@ export function NavMenu({ isOpen }) {
                             transition: { delay: 0.2, duration: 0.05 },
                         },
                     }}>
-                    <Link to="/myp/portfolio">Portfolio</Link>
+                    <Link to="/portfolio">Portfolio</Link>
                 </NavLink>
                 <NavLink
                     initial={false}
@@ -158,7 +158,7 @@ export function NavMenu({ isOpen }) {
                             transition: { delay: 0.25, duration: 0.05 },
                         },
                     }}>
-                    <Link to="/myp/contact">Contact</Link>
+                    <Link to="/contact">Contact</Link>
                 </NavLink>
             </NavList>
         </NavMenuContainer>

@@ -4,7 +4,6 @@ import { useState, createContext } from "react";
 import { ThemeProvider } from "styled-components";
 import { ChangeThemeIcon } from './components/Theme/ChangeThemeIcon';
 import { Navbar } from './components/navbar/Navbar';
-import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Portfolio } from "./pages/Portfolio";
 import { Capabilities } from "./pages/Capabilities";
@@ -42,16 +41,16 @@ function App() {
     <div className="App">
       <ThemeProvider theme={themes[theme]}>
         <AppContext.Provider value={{ theme, setTheme }}>
-          <Router>
+          <Router basename='/myp'>
               <Navbar />
               <NavNextbar />
               <ChangeThemeIcon />
               <Routes>
-                <Route path="/myp/" element={<Menu />} />
-                <Route path="/myp/about" element={<About />} />
-                <Route path="/myp/caps" element={<Capabilities />} />
-                <Route path="/myp/portfolio" element={<Portfolio />} />
-                <Route path="/myp/contact" element={<Contact />} />
+                <Route exact path="/" element={<Menu />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/caps" element={<Capabilities />} />
+                <Route path="/portfolio" element={<Portfolio />} />
+                <Route path="/contact" element={<Contact />} />
               </Routes>
           </Router>
         </AppContext.Provider>
