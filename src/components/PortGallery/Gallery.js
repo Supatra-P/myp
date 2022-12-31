@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { images } from "./GalAsset";
 
 const GalContainer = styled.div`
-    padding: 3vw 16vw;
+    padding: 3vw 16vw 14vw 16vw;
     background-color: ${props => props.theme.pageBackground};
     transition: all .5s ease;
 `;
