@@ -41,7 +41,7 @@ function App() {
     <div className="App">
       <ThemeProvider theme={themes[theme]}>
         <AppContext.Provider value={{ theme, setTheme }}>
-          <Router basename='/myp'>
+          <Router basename='/'>
               <Navbar />
               <NavNextbar />
               <ChangeThemeIcon />
