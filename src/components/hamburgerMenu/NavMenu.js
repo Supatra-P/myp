@@ -79,7 +79,7 @@ const variants = {
     }
 }
 
-export function NavMenu({ isOpen }) {
+export function NavMenu({ toggle, isOpen }) {
 
     return (
         <NavMenuContainer>
@@ -98,7 +98,7 @@ export function NavMenu({ isOpen }) {
                         },
                     }}
                 >
-                    <Link to="/">Home</Link>
+                    <Link to="/"  onClick={toggle}>Home</Link>
                 </NavLink>
                 <NavLink
                     initial={false}
@@ -113,7 +113,7 @@ export function NavMenu({ isOpen }) {
                             transition: { delay: 0.1, duration: 0.05 },
                         },
                     }}>
-                    <Link to="/about">About</Link>
+                    <Link to="/about" onClick={toggle}>About</Link>
                 </NavLink>
                 <NavLink
                     initial={false}
@@ -128,7 +128,7 @@ export function NavMenu({ isOpen }) {
                             transition: { delay: 0.15, duration: 0.05 },
                         },
                     }}>
-                    <Link to="/caps">Capabilities</Link>
+                    <Link to="/caps" onClick={toggle}>Capabilities</Link>
                 </NavLink>
                 <NavLink
                     initial={false}
@@ -143,7 +143,7 @@ export function NavMenu({ isOpen }) {
                             transition: { delay: 0.2, duration: 0.05 },
                         },
                     }}>
-                    <Link to="/portfolio">Portfolio</Link>
+                    <Link to="/portfolio" onClick={toggle}>Portfolio</Link>
                 </NavLink>
                 <NavLink
                     initial={false}
@@ -158,7 +158,7 @@ export function NavMenu({ isOpen }) {
                             transition: { delay: 0.25, duration: 0.05 },
                         },
                     }}>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/contact" onClick={toggle}>Contact</Link>
                 </NavLink>
             </NavList>
         </NavMenuContainer>

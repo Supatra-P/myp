@@ -57,7 +57,7 @@ export function HamburgerMenu(props) {
                 variants={menuVariants}
                 transition={menuTransition}>
                 
-                <NavMenu isOpen={isOpen} />
+                <NavMenu toggle={toggleMenu} isOpen={isOpen}  />
             </MenuContainer>
         </HamburgerMenuContainer>
     );
