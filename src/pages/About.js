@@ -23,7 +23,7 @@ export function About() {
                     <AboutBox>
                         <AboutDetails>
                             <p>
-                                I am constantly interested in improving my technical skills to create beautiful websites and mobile applications so that I can become a full-stack developer in the future. I enjoy taking on challenges and learning new things, which makes me enthusiastic about my work
+                                I am constantly interested in improving my technical skills to create beautiful websites and mobile applications so that I can become a full-stack developer in the future. I enjoy taking on challenges and learning new things, which makes me enthusiastic about my work.
                             </p>
                         </AboutDetails>
                         <AboutResumeContainer>
